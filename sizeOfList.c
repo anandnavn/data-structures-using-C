@@ -51,7 +51,11 @@ return first;
     first=node=last=NULL;
     do
     {
-	printf("enter choice no.\n1.enter a element2.print result 3.size of linked list 4.exit" );        
+	printf("enter choice no.\n");
+	    printf("\n 1.enter a element");
+	    printf("\n 2.print result");
+	    printf("\n 3.size of linked list");
+	    printf("\n 4.exit" );        
 	scanf("\n %d",&ch);
  	switch(ch)
 	{case 1: printf("enter no.\n");
@@ -64,7 +68,7 @@ return first;
 		printf("the size of linked list is %d",n);
 		break; 
 	case 4: exit(0);
-	default: printf("\n wrong cchoice");  
+	default: printf("\n wrong choice");  
     }} while(ch!=4);
 	return 0;
 }
